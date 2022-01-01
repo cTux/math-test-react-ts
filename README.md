@@ -3,7 +3,9 @@
 ## Main
 * React
 * React Hooks
+* Normalize.css
 * SASS
+* PostCSS
 
 ## Types, Linters
 * TypeScript
