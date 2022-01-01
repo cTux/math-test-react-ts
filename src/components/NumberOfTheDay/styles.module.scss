@@ -1,0 +1,9 @@
+.link {
+  display: inline-block;
+  text-decoration: underline black double;
+  color: black;
+
+  &:hover {
+    color: green;
+  }
+}

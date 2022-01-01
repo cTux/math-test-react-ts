@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "project": [
+      "./tsconfig.json"
+    ]
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "max-len": [ "error", { "code": 80, "ignoreUrls": true } ],
+    "max-statements-per-line": 2,
+    "quotes": [ "error", "single" ],
+    "jsx-quotes": [ "error", "prefer-double" ],
+    "no-case-declarations": "off"
+  }
+}
